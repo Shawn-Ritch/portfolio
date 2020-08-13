@@ -44,7 +44,7 @@ main { margin-top: 3.8em; }
 /* Mobile Menu Drop Down */
 li a { display: inline-block; color: rgb(240,240,240); text-align: center; padding: 1em 1.5em; }
 .mainmenu { display: none; opacity:0; position: absolute; right: 0; min-width: calc(7.5em + 5vw); 
-  background-color: rgb(60,60,60); }
+  background-color: rgb(60,60,60); box-shadow: 0 5px 5px 0px rgb(1,1,1); }
 .mainmenu a { display: block; padding: .5em 1.25em; text-align: left; }
 .mainmenu a:hover {background-color: rgb(70,70,70); }   
 .show { display:block; opacity:1; }
