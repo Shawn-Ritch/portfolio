@@ -2,15 +2,15 @@
 *{ margin:0; padding:0; box-sizing:border-box; list-style:none; text-decoration:none; border:0; }
 div, body, main, header, nav, section, aside, article, footer, form, label, hgroup, details, figure, 
 figcaption, summary, dt, ul, li, ol { display:block; float:left; }
-html { width:100vw; height:100vh; font-size:62.5%; scroll-behavior:smooth; line-height:1.5em; }  body { overflow-x:hidden; }
+html { width:100vw; height:100vh; font-size:62.5%; scroll-behavior:smooth; line-height:1.5em; }  
+body { overflow-x:hidden; } body,main,header,section,h1,h2,img,form,input,textarea { width:100%; }
 h1 { font-size:150%; line-height:2em; }         h2 { font-size:140%; line-height:2em; }
-h3 { font-size:130%; line-height:1.75em; }      h4 { font-size:120%; line-height:1.5em; }
-h5,p,a { font-size:110%; line-height:1.5em; }   h6 { font-size:100%; line-height:1.5em; }
+h3 { font-size:130%; line-height:1.75em; }      h4,p,a { font-size:120%; line-height:1.5em; }
+h5 { font-size:110%; line-height:1.5em; }       h6 { font-size:100%; line-height:1.5em; }
 select::-ms-expand{display:none;}  select,option{-moz-appearance:none;-webkit-appearance:none;}
 textarea,button,input,input[type="text"],input[type="button"],input[type="submit"],input[type="search"],
-input[type="email"],input[type="password"],input[type="checkbox"] { -webkit-appearance:none; }
+input[type="email"],input[type="password"],input[type="checkbox"]   { -webkit-appearance:none; }
 input, button, textarea, pre { font-family:inherit; font-size:inherit; }   textarea { resize:none; }
-body, main, header, section, h1, h2, img, form, input, textarea { width:100%; }
 
 /* Custom Elements */
 .ctxt { text-align: center; }
@@ -42,42 +42,55 @@ h1,h2,h3,h4{ font-family:cursive; text-shadow: 0px 0px 1px rgb(1,1,1), 0px 1px 5
 .cta svg { width: 3em; height: 3em; padding: 0; margin: 0; }
 
 /* Header/Nav */
-header { position: fixed; height: 3.85em; z-index: 1000; box-shadow: 0px 0px 10px 4px rgba(1,1,1,.9); }
-.mypic { position: absolute; width: 5.5em; height: 5.5em; margin: 1em; border-radius: 100%; overflow: hidden;
+header { position: fixed; height: 4em; z-index: 1000; box-shadow: 0px 0px 10px 4px rgba(1,1,1,.9); }
+.mypic { position: absolute; width: 5em; height: 5em; margin: 1em; border-radius: 100%; overflow: hidden;
   box-shadow: 0px 0px 10px 4px rgba(1,1,1,.9);}
-main { margin-top: 3.8em; }
-.list ul li { width: 100%; display: block; float: left; line-height: 2em; list-style: circle; }
-.atf { width: 100%; height: calc(100% - 3.8em); overflow: hidden; }
-.atf, .content, .cta, .bgimg { min-height: calc(100vh - 3.8em); }
+main { margin-top: 4em; }
+li a { display: inline-block; color: rgb(180,230,255); text-align: center; padding: .92em 1.25em;
+  text-shadow: 0px 0px 2px black; }
+.list ul li { width: 100%; display: block; float: left; line-height: 1.5em; list-style: circle; }
+.atf { width: 100%; height: calc(100% - 4em); overflow: hidden; }
+.atf, .content, .cta, .bgimg { min-height: calc(100vh - 4em); }
 .content { background-color:rgb(95,95,95); }
-.links { height: 5em; }
+.links { height: 4em; }
 .links svg { height: 4em; width: 4em; padding: 1px; border-radius: .35em;
   background-color: rgb(240,240,240); }
 .git svg { border-radius: 100%; }
 .home .cta .c70 { border-radius: .25em; }
 
+/* Image Slider W/Options & Description */
+
+
 /* Mobile Menu Drop Down */
-li a { display: inline-block; color: rgb(240,240,240); text-align: center; padding: 1em 1.5em; }
-.mainmenu { display: none; opacity:0; position: absolute; right: 0; min-width: calc(7.45em + 5vw); 
+
+.mainmenu { display: none; opacity:0; position: absolute; right: 0; z-index: -1;
+  min-width: calc(7.5em + 5vw); max-height: calc(100vh - 4em); overflow-y: auto;
   background-color: rgb(60,60,60); box-shadow: -4px 4px 3px 0px rgba(1,1,1,.6); }
 .mainmenu a { display: block; padding: .5em 1.25em .5em .75em; text-align: left; }
-.mainmenu a:hover {background-color: rgb(70,70,70); }   
+.mainmenu a:hover {background-color: rgb(70,70,70); }
 .show { display:block; opacity:1; }
 
 /* Parralax */
 #paraBgImg, #parah1 { position: fixed; top:0; z-index: -1; }
 
 /* Condensed Styles */
+
   /* Transitions */
-  li a, .links svg {
-   transition: 200ms ease-in-out;}
-  /* Hover Effects */
-  li a:hover, li a svg .sto:hover {
-    background-color: rgb(70,70,70); fill: rgb(240,240,240); }
+  a, .links svg {
+   transition: 200ms ease-in-out; }
+  /* Hover, Focus & Active Effects */
+  a:hover, a:focus {
+    color: rgb(120,230,255); }
+  a:focus {
+    outline: none; box-shadow: inset 0px 0px 0px 1px rgba(1,1,1,.25); background-color: rgb(70,70,70); }
+  li a:hover, a:hover .st0 {
+    background-color: rgb(70,70,70); color: rgb(120,230,255); fill: rgb(120,230,255); }
   .links svg:hover {
     box-shadow: 0px 0px 10px 4px rgba(1,1,1,.5); transform: scale(1.03); }
+  .active {
+    color: rgb(120,230,255); background-color: rgb(70,70,70); }
   /* Widths */
-  footer, footer h6, .list ul, .col {
+  footer, footer h6, .list ul, .col, .fl {
     width: 100%; }
   /* Backgrounds */
   .greybg { 
@@ -102,11 +115,11 @@ li a { display: inline-block; color: rgb(240,240,240); text-align: center; paddi
 } @media screen and (max-width: 958px) /*Tablets & laptops*/ {
   body{font-size:1.8em;}
 } @media screen and (max-width: 818px)  /*HIGH RES PHONES*/  {
-  body{font-size:1.7em;}  li a { padding: 1em; }
+  body{font-size:1.7em;}  li a { padding: .9em 1em; }
 } @media screen and (max-width: 719px)   /*Average PHONE*/   {
   body{font-size:1.6em;}  .c30lg{width:90%;}
 } @media screen and (max-width: 479px)   /*SMALL SCREENS*/   {
-  .plr5 { padding-left:1vw; padding-right:1vw; }.c70 { width: 90%; }  .pt20 { padding-top: 40vh; }
+  .plr5 { padding-left:1vw; padding-right:1vw; }.c70 { width: 90%; }
 } @media screen and (max-width: 319px)    /*MINI SCREENS*/   {
-  body{font-size:1.4em;}  li a { padding: 1em .5em; } .c70 { width: 100%; }
+  body{font-size:1.4em;}  li a { padding: .9em 1em; } .c70 { width: 100%; }
 }
