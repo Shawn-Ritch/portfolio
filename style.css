@@ -54,7 +54,7 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
 .content { background-color:rgb(95,95,95); }
 .links { height: 4em; }
 .links svg { height: 4em; width: 4em; padding: 1px; border-radius: .35em;
-  background-color: rgb(240,240,240); pointer-events: none; }
+  background-color: rgb(240,240,240); }
 .git svg { border-radius: 100%; }
 .home .cta .c70 { border-radius: .25em; }
 
