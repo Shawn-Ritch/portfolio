@@ -54,7 +54,7 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
 .content { background-color:rgb(95,95,95); }
 .links { height: 4em; }
 .links svg { height: 4em; width: 4em; padding: 1px; border-radius: .35em;
-  background-color: rgb(240,240,240); }
+  background-color: rgb(240,240,240); pointer-events: none; }
 .git svg { border-radius: 100%; }
 .home .cta .c70 { border-radius: .25em; }
 
@@ -101,7 +101,7 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
     outline: none; box-shadow: inset 0px 0px 0px 1px rgba(1,1,1,.25); background-color: rgb(70,70,70); }
   li a:hover, .prev:hover, .next:hover, a:hover .st0 {
     background-color: rgb(70,70,70); color: rgb(120,230,255); fill: rgb(120,230,255); }
-  .links svg:hover {
+  .links a:hover svg {
     box-shadow: 0px 0px 10px 4px rgba(1,1,1,.5); transform: scale(1.03); -webkit-transform: scale(1.03); }
   .active {
     color: rgb(120,230,255); background-color: rgb(70,70,70);
