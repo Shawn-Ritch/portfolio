@@ -63,7 +63,7 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
 .slide { display: none; height: 75vh; }
 .slide img{ min-height:100%; min-width: 100%; object-fit:cover; }
 .prev, .next { cursor: pointer; position: absolute; top: 50%; width: auto; padding: 16px; 
-  margin-top: -1em; color: white; font-weight: bold; font-size: 2em; user-select: none; }
+  margin-top: -1em; color: rgb(180,230,255); font-weight: bold; font-size: 2em; user-select: none; }
 .prev { left: 0; border-radius: 0 .12em .12em 0; }  .next { right: 0; }  .next { border-radius: .12em 0 0 .12em; }
 .text { position: absolute; padding: .25em; bottom: 0; text-align: center; line-height: 1.5em; }
 .slidenum { padding: .5em .75em; position: absolute; top: 0; border-radius: 0 0 .25em 0; }
