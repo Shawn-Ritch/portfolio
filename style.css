@@ -92,7 +92,9 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
 
   /* Transitions */
   a, .mainmenu, .links svg {
-   transition: 200ms ease-in-out; }
+    transition: 200ms ease-in-out; }
+  #paraBgImg, #parah1 {
+	  transition: 20ms linear; }
 
   /* Hover, Focus & Active Effects */
   a:hover, a:focus {
