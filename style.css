@@ -42,7 +42,7 @@ section {position: relative; z-index: 1;}
 .cta a { width: auto; height: 3em; padding: 0 .5em; margin: 0; line-height: 3em; }
 .cta svg { width: 3em; height: 3em; padding: 0; margin: 0; }
 
-/* Header/Nav */
+/* Header/Nav/Links */
 header { position: fixed; height: 4em; z-index: 1000; box-shadow: 0px 0px 10px 4px rgba(1,1,1,.9); }
 .mypic { position: absolute; width: 5em; height: 5em; margin: 1em; border-radius: 100%; overflow: hidden;
   box-shadow: 0px 0px 10px 4px rgba(1,1,1,.9);}
@@ -52,7 +52,7 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
 .atf { width: 100%; height: calc(100% - 4em); overflow: hidden; }
 .atf, .content, .cta, .bgimg { min-height: calc(100vh - 4em); }
 .content { background-color:rgb(95,95,95); }
-.links { height: 4em; }
+.link { width: 4em; height: 4em; }
 .links svg { height: 4em; width: 4em; padding: 1px; border-radius: .35em;
   background-color: rgb(240,240,240); }
 .git svg { border-radius: 100%; }
@@ -103,8 +103,6 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
     outline: none; box-shadow: inset 0px 0px 0px 1px rgba(1,1,1,.25); background-color: rgb(70,70,70); }
   li a:hover, .prev:hover, .next:hover, a:hover .st0 {
     background-color: rgb(70,70,70); color: rgb(120,230,255); fill: rgb(120,230,255); }
-  .link {
-    width: 4em; height: 4em; }
   .link a:hover svg {
     box-shadow: 0px 0px 10px 4px rgba(1,1,1,.5); transform: scale(1.03); -webkit-transform: scale(1.03); }
   .active {
@@ -153,6 +151,7 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
 } @media screen and (max-width: 319px)    /*MINI SCREENS*/   {
   body{font-size:1.4em;}  li a { padding: .9em 1em; } .c70 { width: 100%; }
 }
+
 
 
 
