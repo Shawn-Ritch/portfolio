@@ -6,6 +6,7 @@ for (var i = 0; i < navLinks.length; i++) {
   }
 }
 
+
 function toggleMenus() {
   document.getElementById ("mainMenu") .classList.toggle ("show");
 }
@@ -19,3 +20,7 @@ window.onclick = function(e) {
     }
   }
 }
+
+
+const thisYear = new Date();
+document.getElementById("thisYear").innerHTML = thisYear.getFullYear();
