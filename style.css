@@ -22,6 +22,7 @@ input, button, textarea, pre { font-family:inherit; font-size:inherit; }   texta
 .center { margin-left:auto; margin-right:auto; }
 .right { float:right; right:0; }
 .p1m { padding: 1em; }
+.pt1m { padding-top: 1em; } .pb1m { padding-bottom: 1em; }
 .ptb1m { padding-top: 1em; padding-bottom: 1em; }
 .plr5 { padding-left:5vw; padding-right:5vw; }
 .pt5 { padding-top: 5vh; }
@@ -151,6 +152,7 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
 } @media screen and (max-width: 319px)    /*MINI SCREENS*/   {
   body{font-size:1.4em;}  li a { padding: .9em 1em; } .c70 { width: 100%; }
 }
+
 
 
 
