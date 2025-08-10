@@ -31,6 +31,7 @@ input, button, textarea, pre { font-family:inherit; font-size:inherit; }   texta
 .pt10 { padding-top: 10vh; }
 .pt20 { padding-top: 20vh; }
 .pt30 { padding-top: 30vh; }
+.mlr1m { margin-left: 1em; margin-right: 1em; }
 .mt10 { margin-top: 10vh; }
 .mtb10 { margin-top: 10vh; margin-bottom: 10vh; }
 
@@ -152,6 +153,7 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
 } @media screen and (max-width: 319px)    /*MINI SCREENS*/   {
   body{font-size:1.4em;}  li a { padding: .9em 1em; } .c70 { width: 100%; }
 }
+
 
 
 
