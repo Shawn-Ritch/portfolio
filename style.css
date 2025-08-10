@@ -103,6 +103,8 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
     outline: none; box-shadow: inset 0px 0px 0px 1px rgba(1,1,1,.25); background-color: rgb(70,70,70); }
   li a:hover, .prev:hover, .next:hover, a:hover .st0 {
     background-color: rgb(70,70,70); color: rgb(120,230,255); fill: rgb(120,230,255); }
+  .link {
+    width: 4em; height: 4em; }
   .link a:hover svg {
     box-shadow: 0px 0px 10px 4px rgba(1,1,1,.5); transform: scale(1.03); -webkit-transform: scale(1.03); }
   .active {
@@ -151,5 +153,6 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
 } @media screen and (max-width: 319px)    /*MINI SCREENS*/   {
   body{font-size:1.4em;}  li a { padding: .9em 1em; } .c70 { width: 100%; }
 }
+
 
 
