@@ -40,8 +40,6 @@ body{ color:rgb(240,240,240); background-color:rgb(95,95,95); font-family:sans-s
 h1,h2,h3,h4{ font-family:cursive; text-shadow: 0px 0px 1px rgb(1,1,1), 0px 1px 5px rgb(1,1,1), 0px 2px 10px rgb(1,1,1); }
 ::selection{ background-color:rgb(60,60,60); color:white; }
 section {position: relative; z-index: 1;}
-.cta a { width: auto; height: 3em; padding: 0 .5em; margin: 0; line-height: 3em; }
-.cta svg { width: 3em; height: 3em; padding: 0; margin: 0; }
 
 /* Header/Nav/Links */
 header { position: fixed; height: 4em; z-index: 1000; box-shadow: 0px 0px 10px 4px rgba(1,1,1,.9); }
@@ -152,6 +150,7 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
 } @media screen and (max-width: 319px)    /*MINI SCREENS*/   {
   body{font-size:1.4em;}  li a { padding: .9em 1em; } .c70 { width: 100%; }
 }
+
 
 
 
