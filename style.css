@@ -7,9 +7,9 @@ body { overflow-x:hidden; }  body,main,header,section,h1,h2,img,form,input,texta
 h1 { font-size:150%; line-height:2em; }         h2 { font-size:140%; line-height:2em; }
 h3 { font-size:130%; line-height:1.75em; }      h4,p,a { font-size:120%; line-height:1.5em; }
 h5 { font-size:110%; line-height:1.5em; }       h6 { font-size:100%; line-height:1.5em; }
-select::-ms-expand{display:none;}  select,option{-moz-appearance:none;-webkit-appearance:none;}
-textarea,button,input,input[type="text"],input[type="button"],input[type="submit"],input[type="search"],
-input[type="email"],input[type="password"],input[type="checkbox"]   { -webkit-appearance:none; }
+select,option{-moz-appearance:none;-webkit-appearance:none; } textarea,button,input,input[type="text"],
+input[type="button"],input[type="submit"],input[type="search"],input[type="email"],
+input[type="password"],input[type="checkbox"]   { -webkit-appearance:none; }
 input, button, textarea, pre { font-family:inherit; font-size:inherit; }   textarea { resize:none; }
 
 /* Custom Elements */
@@ -151,3 +151,4 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
 } @media screen and (max-width: 319px)    /*MINI SCREENS*/   {
   body{font-size:1.4em;}  li a { padding: .9em 1em; } .c70 { width: 100%; }
 }
+
