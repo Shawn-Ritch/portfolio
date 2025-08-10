@@ -53,7 +53,7 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
 .atf, .content, .cta, .bgimg { min-height: calc(100vh - 4em); }
 .content { background-color:rgb(95,95,95); }
 .link { width: 4em; height: 4em; }
-.links svg { height: 4em; width: 4em; padding: 1px; border-radius: .35em;
+.link svg { height: 4em; width: 4em; padding: 1px; border-radius: .35em;
   background-color: rgb(240,240,240); }
 .git svg { border-radius: 100%; }
 .home .cta .c70 { border-radius: .25em; }
@@ -151,6 +151,7 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
 } @media screen and (max-width: 319px)    /*MINI SCREENS*/   {
   body{font-size:1.4em;}  li a { padding: .9em 1em; } .c70 { width: 100%; }
 }
+
 
 
 
