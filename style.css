@@ -101,7 +101,7 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
 /* Parralax */
 
 #paraBgImg, #parah1 { position: fixed; }
-  #paraBgImg { top: 4em; }
+  #paraBgImg { margin-top: 4em; }
   #parah1 { top:0; }
 
 /***   Condensed Styles   ***/
@@ -194,6 +194,7 @@ li a, .text, .prev, .next {
 } @media screen and (min-width: 3841px)                                /* 8K */ {
   body{font-size:4.0em;}
 }
+
 
 
 
