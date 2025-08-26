@@ -6,8 +6,9 @@ div, body, main, header, nav, section, aside, article, footer, form, label, hgro
 figcaption, summary, dt, ul, li, ol { display:block; float:left; }
 html { width: 100vw; height: 100vh; font-size: 62.5%; scroll-behavior: smooth; line-height: 1.5em; }  
 body { overflow-x:hidden; }  body,main,header,section,h1,h2,img,form,input,textarea { width: 100%; }
-h1{font-size:150%;}                      h2{font-size:140%;}                     h3{font-size:130%;}
-h4,p,a { font-size:120%; }              h5 { font-size:110%; }                h6 { font-size:100%; }
+h1 { font-size: 150%; line-height: 1.5em; }              h2 { font-size: 140%; line-height: 1.5em; }
+h3 { font-size: 130%; line-height: 1.5em; }          h4,p,a { font-size: 120%; line-height: 1.5em; }
+h5 { font-size: 110%; line-height: 1.5em; }               h6 { font-size:100%; line-height: 1.5em; }
 select,option{-moz-appearance:none;-webkit-appearance:none;}textarea,button,input,input[type="text"],
 input [ type="button" ],  input [ type="submit" ],  input [ type="search" ],  input [ type="email" ],
 input [ type="password" ], input [ type="checkbox" ] { -webkit-appearance:none; }
@@ -190,4 +191,5 @@ li a, .text, .prev, .next {
 } @media screen and (max-width: 319px)    /*MINI SCREENS*/   {
   body{font-size:1.4em;}  li a { padding: .9em 1em; } .c70 { width: 100%; }
 }
+
 
