@@ -32,8 +32,8 @@ input, button, textarea, pre { font-family:inherit; font-size:inherit; }   texta
 .ptb1m { padding-top: 1em; padding-bottom: 1em; }
 .pl1m { padding-left: 1em; } .pr1m { padding-right: 1em; }
 .plr1m { padding-left: 1em; padding-right: 1em; }
-.plr5 { padding-left:5vw; padding-right:5vw; }
 .pt5 { padding-top: 5vh; }
+.plr5 { padding-left:1vw; padding-right:1vw; }     /* Effected by Media Query */
 .pt10 { padding-top: 10vh; }
 .pt20 { padding-top: 20vh; }
 .pt30 { padding-top: 30vh; }
@@ -175,7 +175,7 @@ li a, .text, .prev, .next {
   li a { padding: .9em 1em; }  .c70 { width: 100%; }
 } @media screen and (min-width: 320px)                       /* SMALL PHONES */ {
   body{font-size:1.6em;} 
-  .plr5 { padding-left:1vw; padding-right:1vw; }  .c70 { width: 90%; }
+  .plr5 { padding-left: 5vw; padding-right: 5vw; }  .c70 { width: 90%; }
 } @media screen and (min-width: 481px)                      /* Average PHONE */ {
   .c30lg{width:90%;}
 } @media screen and (min-width: 721px)                    /* HIGH RES PHONES */ {
@@ -190,6 +190,7 @@ li a, .text, .prev, .next {
   body{font-size:2.4em;}
 } @media screen and (min-width: 2551px)                       /* Ultra HD 4K */ {
   body{font-size:2.7em;}
-} @media screen and (min-width: 4001px)                                /* 8K */ {
+} @media screen and (min-width: 3841px)                                /* 8K */ {
   body{font-size:3.0em;}
 }
+
