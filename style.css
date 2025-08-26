@@ -1,15 +1,14 @@
 /* Browser Resets */
-*{ margin:0; padding:0; box-sizing:border-box; list-style:none; text-decoration:none; border:0; }
+*{ margin:0; padding:0;  box-sizing:border-box;  list-style:none;  text-decoration:none; border:0; }
 div, body, main, header, nav, section, aside, article, footer, form, label, hgroup, details, figure, 
 figcaption, summary, dt, ul, li, ol { display:block; float:left; }
-html { width:100vw; height:100vh; font-size:62.5%; scroll-behavior:smooth; line-height:1.5em; }  
-body { overflow-x:hidden; }  body,main,header,section,h1,h2,img,form,input,textarea { width:100%; }
-h1 { font-size:150%; line-height:2em; }         h2 { font-size:140%; line-height:2em; }
-h3 { font-size:130%; line-height:1.75em; }      h4,p,a { font-size:120%; line-height:1.5em; }
-h5 { font-size:110%; line-height:1.5em; }       h6 { font-size:100%; line-height:1.5em; }
-select,option{-moz-appearance:none;-webkit-appearance:none; } textarea,button,input,input[type="text"],
-input[type="button"],input[type="submit"],input[type="search"],input[type="email"],
-input[type="password"],input[type="checkbox"]   { -webkit-appearance:none; }
+html { width: 100vw; height: 100vh; font-size: 62.5%; scroll-behavior: smooth; line-height: 1.5em; }  
+body { overflow-x:hidden; }  body,main,header,section,h1,h2,img,form,input,textarea { width: 100%; }
+h1{font-size:150%;}                      h2{font-size:140%;}                     h3{font-size:130%;}
+h4,p,a { font-size:120%; }              h5 { font-size:110%; }                h6 { font-size:100%; }
+select,option{-moz-appearance:none;-webkit-appearance:none;}textarea,button,input,input[type="text"],
+input [ type="button" ],  input [ type="submit" ],  input [ type="search" ],  input [ type="email" ],
+input [ type="password" ], input [ type="checkbox" ] { -webkit-appearance:none; }
 input, button, textarea, pre { font-family:inherit; font-size:inherit; }   textarea { resize:none; }
 
 /* Custom Elements */
@@ -121,7 +120,8 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
   .text {
     background-color: rgba(60,60,60,.9); }
   header, footer, .slidenum {
-    background-color: rgb(60,60,60); }
+	  background-image: linear-gradient(to bottom right, rgb(40,40,40), rgb(80,80,80));
+	  background-color: rgb(40,40,40); }
 
   /* Border Radius */
   .slider {
@@ -153,6 +153,7 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
 } @media screen and (max-width: 319px)    /*MINI SCREENS*/   {
   body{font-size:1.4em;}  li a { padding: .9em 1em; } .c70 { width: 100%; }
 }
+
 
 
 
