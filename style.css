@@ -1,4 +1,6 @@
+
 /* Browser Resets */
+
 *{ margin:0; padding:0;  box-sizing:border-box;  list-style:none;  text-decoration:none; border:0; }
 div, body, main, header, nav, section, aside, article, footer, form, label, hgroup, details, figure, 
 figcaption, summary, dt, ul, li, ol { display:block; float:left; }
@@ -11,15 +13,19 @@ input [ type="button" ],  input [ type="submit" ],  input [ type="search" ],  in
 input [ type="password" ], input [ type="checkbox" ] { -webkit-appearance:none; }
 input, button, textarea, pre { font-family:inherit; font-size:inherit; }   textarea { resize:none; }
 
+
 /* Custom Elements */
+
 .ctxt { text-align: center; }
 .flex { display: flex; }
 .fjcnt { justify-content: center; }
 .fl { float: left; }
+
 .c40 { width: 40%; }  .c50 { width: 50%; }  .c70 { width: 70%; }
 .cnt { float:none; margin-left:auto; margin-right:auto; }
 .center { margin-left:auto; margin-right:auto; }
 .right { float:right; right:0; }
+
 .p1m { padding: 1em; }
 .pt1m { padding-top: 1em; } .pb1m { padding-bottom: 1em; }
 .ptb1m { padding-top: 1em; padding-bottom: 1em; }
@@ -30,11 +36,16 @@ input, button, textarea, pre { font-family:inherit; font-size:inherit; }   texta
 .pt10 { padding-top: 10vh; }
 .pt20 { padding-top: 20vh; }
 .pt30 { padding-top: 30vh; }
+
 .mlr1m { margin-left: 1em; margin-right: 1em; }
 .mt10 { margin-top: 10vh; }
 .mtb10 { margin-top: 10vh; margin-bottom: 10vh; }
 
+.show { display:block; opacity:1; }
+
+
 /* Template */
+
 html{ background-color:rgb(95,95,95); }
 body{ color:rgb(240,240,240); background-color:rgb(95,95,95); font-family:sans-serif; overflow-x:hidden; }
 .home .bgimg { background-image:url("images/connected.jpg"); background-size: cover; min-width: 100%; min-height: 100%; }
@@ -43,7 +54,9 @@ h1,h2,h3,h4{ font-family:cursive; text-shadow: 0px 0px 1px rgb(1,1,1), 0px 1px 5
 ::selection{ background-color:rgb(60,60,60); color:white; }
 section {position: relative; z-index: 1;}
 
+
 /* Header/Nav/Links */
+
 header { position: fixed; height: 4em; z-index: 1000; box-shadow: 0px 0px 10px 4px rgba(1,1,1,.9); }
 .mypic { position: absolute; width: 5em; height: 5em; margin: 1em; border-radius: 100%; overflow: hidden;
   box-shadow: 0px 0px 10px 4px rgba(1,1,1,.9);}
@@ -59,7 +72,9 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
 .git svg { border-radius: 100%; }
 .home .cta .c70 { border-radius: .25em; }
 
+
 /* Image Slider W/Options & Description */
+
 .slider { position: relative; width: 100%; margin: 1em 0; overflow: hidden; }
 .slide { display: none; height: 75vh; }
 .slide img{ min-height:100%; min-width: 100%; object-fit:cover; }
@@ -73,23 +88,27 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
 @-webkit-keyframes fade { from {opacity: .4} to {opacity: 1} }
 @keyframes fade { from {opacity: .4} to {opacity: 1} }
 
-/* Mobile Menu Drop Down */
+
+/* Header Drop Down Menu */
+
 .mainmenu { display: none; opacity:0; position: absolute; right: 0; overflow-y: auto; z-index: -1;
   min-width: calc(7.5em + 5vw); max-height: calc(100vh - 4em); background-color: rgb(60,60,60);
   box-shadow: -1px 1px 1px 0px rgba(1,1,1,.25), -5px 5px 5px 0px rgba(1,1,1,.5); }
 .mainmenu a { display: block; padding: .5em 1.25em .5em .75em; text-align: left; }
 .mainmenu a:hover {background-color: rgb(70,70,70); }
 
-.show { display:block; opacity:1; }
 
 /* Parralax */
+
 #paraBgImg, #parah1 {position: fixed; top:0;}
 
-/* Condensed Styles */
 
-  /* Text Shadows */
-  li a, .text, .prev, .next {
-    text-shadow: 0px 0px 2px black;}
+/***   Condensed Styles   ***/
+
+/* Text Shadows */
+
+li a, .text, .prev, .next {
+  text-shadow: 0px 0px 2px black;}
 
   /* Transitions */
   a, .mainmenu, .links svg {
@@ -129,9 +148,11 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
 
   /* Borders */
   .content, .slider, footer, .home .cta .c70 {
-    border: 1px solid rgba(1,1,1,.25);}
+    border: 1px solid rgba(1,1,1,.25); }
+
 
 /* Media Queries */
+
 @media screen and (max-width: 8000px)         /*8K*/         {
   body{font-size:3.0em;}
 } @media screen and (max-width: 3838px)  /*Ultra HD 4K*/     {
@@ -153,14 +174,3 @@ li a { display: inline-block; color: rgb(180,230,255); text-align: center; paddi
 } @media screen and (max-width: 319px)    /*MINI SCREENS*/   {
   body{font-size:1.4em;}  li a { padding: .9em 1em; } .c70 { width: 100%; }
 }
-
-
-
-
-
-
-
-
-
-
-
