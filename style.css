@@ -148,7 +148,7 @@ li a, .text, .prev, .next {
     background-color: rgba(60,60,60,.9); }
   header, footer, .slidenum {
 	  background-color: rgb(40,40,40);
-	  background-image: linear-gradient(to bottom right, rgb(40,40,40), rgb(70,70,70)); }
+	  background-image: linear-gradient(to bottom right, rgb(10,20,30), rgb(70,70,70)); }
 
 
   /* Border Radius */
@@ -193,4 +193,5 @@ li a, .text, .prev, .next {
 } @media screen and (min-width: 3841px)                                /* 8K */ {
   body{font-size:3.0em;}
 }
+
 
