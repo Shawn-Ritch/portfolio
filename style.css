@@ -139,8 +139,8 @@ li a, .text, .prev, .next {
   .text {
     background-color: rgba(60,60,60,.9); }
   header, footer, .slidenum {
-	  background-image: linear-gradient(to bottom right, rgb(40,40,40), rgb(80,80,80));
-	  background-color: rgb(40,40,40); }
+	  background-color: rgb(40,40,40);
+	  background-image: linear-gradient(to bottom right, rgb(40,40,40), rgb(70,70,70)); }
 
   /* Border Radius */
   .slider {
@@ -174,3 +174,4 @@ li a, .text, .prev, .next {
 } @media screen and (max-width: 319px)    /*MINI SCREENS*/   {
   body{font-size:1.4em;}  li a { padding: .9em 1em; } .c70 { width: 100%; }
 }
+
