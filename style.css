@@ -165,7 +165,7 @@ li a, .text, .prev, .next {
 
 /* Custom Template Elements */
 
-.c70mw { min-width:70%; max-width:100%; }
+.c70mw { min-width:70%; max-width:calc(100% - 1em); }
 .show { display:block; opacity:1; }
 
 
@@ -194,6 +194,7 @@ li a, .text, .prev, .next {
 } @media screen and (min-width: 3841px)                                /* 8K */ {
   body{font-size:4.0em;}
 }
+
 
 
 
