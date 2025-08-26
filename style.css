@@ -46,7 +46,7 @@ input, button, textarea, pre { font-family: inherit; font-size: inherit; } texta
 
 html{ background-color:rgb(95,95,95); }
 body{ color:rgb(240,240,240); background-color:rgb(95,95,95); font-family:sans-serif; overflow-x:hidden; }
-.home .bgimg { background-image:url("images/connected.jpg"); background-size: cover; min-width: 100%; min-height: 150%;
+.home .bgimg { background-image:url("images/connected.jpg"); background-size: cover; min-width: 100%; min-height: 140%;
   background-position-x: left; background-position-y: top; }
 .home .bgimg2 { background-image:url("images/code-img.PNG"); background-size: cover;  min-width: 100%; min-height: calc(100vh - 3.8em); }
 h1, h2{ width:100%; }
@@ -193,6 +193,7 @@ li a, .text, .prev, .next {
 } @media screen and (min-width: 3841px)                                /* 8K */ {
   body{font-size:4.0em;}
 }
+
 
 
 
