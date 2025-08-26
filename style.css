@@ -17,9 +17,10 @@ input, button, textarea, pre { font-family: inherit; font-size: inherit; } texta
 
 /* Custom Elements */
 
-.ctxt { text-align: center; }
+.ctxt { text-align: center; }  .rtxt{ text-align: right; }
+
 .flex { display: flex; }
-.fjcnt { justify-content: center; }
+.fcnt { justify-content: center; }
 
 .col{ width:100%; }  .c40 { width: 40%; }  .c50 { width: 50%; }  .c70 { width: 70%; }
 .cnt { float:none; margin-left:auto; margin-right:auto; }
@@ -194,6 +195,7 @@ li a, .text, .prev, .next {
 } @media screen and (min-width: 3841px)                                /* 8K */ {
   body{font-size:4.0em;}
 }
+
 
 
 
